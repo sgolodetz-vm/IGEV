@@ -189,7 +189,7 @@ class SceneFlowDatasets(StereoDataset):
 
 
 class ETH3D(StereoDataset):
-    def __init__(self, aug_params=None, root='/data/ETH3D', split='training'):
+    def __init__(self, aug_params=None, root='data/ETH3D', split='training'):
         super(ETH3D, self).__init__(aug_params, sparse=True)
 
         image1_list = sorted( glob(osp.join(root, f'two_view_{split}/*/im0.png')) )

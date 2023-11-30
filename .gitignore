@@ -1,0 +1,5 @@
+.idea/
+__pycache__/
+IGEV-Stereo/data/
+IGEV-Stereo/demo-output/
+IGEV-Stereo/pretrained_models/
